@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Sandbox
 {
-    class Employee
+    public class Employee
     {
         private String name;
         private int salaryPerMonth;
