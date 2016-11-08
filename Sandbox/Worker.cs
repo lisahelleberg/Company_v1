@@ -19,5 +19,14 @@ namespace Sandbox
             this.skill = newSkill;
         }
 
+        public string GetSkill()
+        {
+            return skill;
+        }
+
+        public void PrintInfo()
+        {
+            Console.WriteLine($"Name: {GetName()}, Monthly salary: {GetSalaryPerMonth()}, Skill: {GetSkill()} ");
+        }
     }
 }
